@@ -10,4 +10,4 @@ Esse projeto contém códigos que foram criados com objetivo de compreensão do 
 
 | Exercício         | Descrição                     | Pasta ou Arquivo                      |
 |-------------------|-------------------------------|---------------------------------------|
-|   Nome do exercício | Descrição do exercício     | [index.html]() |
+|   Nome do exercício | Descrição do exercício     | [index.html]() |s
