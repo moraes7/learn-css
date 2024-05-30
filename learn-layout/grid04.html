@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>fr value</h1> <!-- fr é como se fosse um ratio -->
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr;
+
+        height: 50px;            
+    ">
+        <div style="background-color: lightblue;">100px</div>
+        <div style="background-color: lightcoral;">1 fr</div>
+    </div>
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr 3fr 4fr ;
+
+        height: 50px;            
+        margin-top: 30px;">
+        <div style="background-color: lightblue;">100px</div>
+        <div style="background-color: lightcoral;">1 fr</div>
+        <div style="background-color: lightgray ;">2 fr</div>
+        <div style="background-color: lightpink ;">3 fr</div>
+        <div style="background-color: lightgreen ;">4 fr</div>
+    </div>
+
+    <div style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+
+        height: 50px;            
+        margin-top: 30px;">
+        <div style="background-color: lightblue; height: 200px;">1 fr</div>
+        <div style="background-color: lightcoral; height: 200px;">1 fr</div>
+        <div style="background-color: lightgray ; height: 200px;">1 fr</div>
+        <div style="background-color: lightpink ; height: 200px;">1 fr</div>
+        <div style="background-color: lightgreen ; height: 200px;">1 fr</div>
+        <div style="background-color: lightseagreen ; height: 200px;">1 fr</div>
+    </div>
+</body>
+</html>
