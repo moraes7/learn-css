@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: black;
+            padding: 10px;
+            width: 431px;
+
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto;
+            column-gap: 10px;
+            row-gap: 15px;
+        }
+
+        .container > div {
+            display: grid;
+            align-items: center;
+
+            background-color: lightgrey;
+            text-align: center;
+            height: 90px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .screen {
+            grid-column: 1 / scan 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid Calculator</h1>
+
+    <div class="container">
+
+        <div class="screen" style="background-color: black; color: white; text-align: start; font-size: 50px;">|</div>
+        <div style="background-color: red;">C</div>
+        <div style="background-color: aqua;">( )</div>
+        <div style="background-color: aqua;">%</div>
+        <div style="background-color: aqua">/</div>
+
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div style="background-color: aqua;">X</div>
+
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div style="background-color: aqua;">-</div>
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div style="background-color: aqua;">+</div>
+
+        <div>+/-</div>
+        <div>0</div>    
+        <div>.</div>
+        <div style="background-color: green;">=</div>
+    </div>
+</body>
+</html>
