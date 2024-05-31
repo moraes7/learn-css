@@ -10,7 +10,44 @@
         font-family: Arial, Helvetica, sans-serif;
        }
 
-    
+       input[type=text] {
+        padding: 4px;
+        border-radius: 4px;
+        border: 2px solid black;
+       }
+
+       input[type=tel] {
+        text-align: start;
+        padding: 4px;
+        border-radius: 4px;
+        border: 2px solid black;
+       }
+
+       input[type=email] {
+        padding: 4px;
+        border-radius: 4px;
+        border: 2px solid black;
+       }
+
+       textarea {
+        border: 2px solid black;
+        border-radius: 4px;
+       }
+
+       input[type=submit] {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+        background-color: grey;
+        color: white;
+        cursor: pointer;
+       }
+
+       input[type=submit]:hover {
+        background-color: lightgrey;
+        color: black;
+       }
     </style>
 </head>
 <body>
@@ -24,7 +61,7 @@
                     <input type="text" name="name" id="iname" required>
                 </div>
                 <div>
-                    <label for="tel">Telefone: </label>
+                    <label for="tel">Celular:</label>
                     <input type="tel" name="tel" id="itel" placeholder="+55 (xx)xxxxx-xxxx" required>
                 </div>
                 <div>
