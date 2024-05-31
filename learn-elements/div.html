@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px 200px;
+            height: 200px;
+            gap: 10px;
+        }
+
+        .container > div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: lightblue;">1</div>
+        <div style="background-color: lightcoral;">2</div>
+    </div>
+    <div class="container" style="margin-top: 10px;">
+        <div style="background-color: lightblue;">1</div>
+        <div style="background-color: lightcoral;">2</div>
+    </div>
+</body>
+</html>
