@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div {
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Preencha o Formulário abaixo</h1>
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset style="background-color: rgb(194, 219, 227); width: 20px; ">
+                <legend>Dados Pessoais  </legend>
+                <div>
+                    <label for="name">Nome: </label>
+                    <input type="text" name="name" id="iname" required>
+                </div>
+                <div>
+                    <label for="tel">Telefone: </label>
+                    <input type="tel" name="tel" id="itel" placeholder="+55 (xx)xxxxx-xxxx" required>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="iemail" required>
+                </div>
+                <div>
+                    <label for="sexo">Sexo: </label>
+                    M <input type="radio" name="sexo" id="isexo" checked>
+                    F <input type="radio" name="sexo" id="isexo">
+                    Outro <input type="radio" name="sexo" id="isexo">
+                </div>
+                <div>
+                    <label for="msg">Mensagem: </label>
+                    <textarea name="msg" id="imsg" placeholder="Deixe sua mensagem aqui." cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>
