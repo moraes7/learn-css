@@ -17,8 +17,12 @@
             font-weight: bold;
         }
 
-        li {
-            margin-bottom: 10px;
+        .ingredientes {
+            list-style: square;
+        }
+
+        .preparo {
+            list-style: upper-roman;
         }
     </style>
 </head>
@@ -27,22 +31,26 @@
     <fieldset>
         <legend style="font-weight: bold;">Ingredientes</legend>
         <ul>
-            <li>1 xícara de leite</li>
-            <li>3 xícaras de farinha de trigo</li>
-            <li>3 ovos</li>
-            <li>1 colher de sopa de fermento em pó</li>
-            <li>3 xícaras de açúcar</li>
-            <li>4 colheres de manteiga</li>
+            <div class="ingredientes">
+                <li>1 xícara de leite</li>
+                <li>3 xícaras de farinha de trigo</li>
+                <li>3 ovos</li>
+                <li>1 colher de sopa de fermento em pó</li>
+                <li>3 xícaras de açúcar</li>
+                <li>4 colheres de manteiga</li>
+            </div>
         </ul>
     </fieldset>
 
     <fieldset>
         <legend>Modo de preparo</legend>
         <ol>
-            <li>Bata o açúcar, a margarina e os ovos.</li>
-            <li>Depos acrescente a farinha de trigo, o leite e por último o fermento.</li>
-            <li>Unte a forma com farinha.</li>
-            <li>Asse por +/- 40 minutos.</li>
+            <div class="preparo">
+                <li>Bata o açúcar, a margarina e os ovos.</li>
+                <li>Depos acrescente a farinha de trigo, o leite e por último o fermento.</li>
+                <li>Unte a forma com farinha.</li>
+                <li>Asse por +/- 40 minutos.</li>
+            </div>
         </ol>
     </fieldset>
 </body>
